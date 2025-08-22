@@ -1,0 +1,21 @@
+.errorcontainer {
+  text-align: center;
+  margin-top: 45vh;
+  /* border: 1px solid black; */
+}
+
+.err {
+  font-size: xx-large;
+  color: #e63946;
+  /* border: 1px solid yellow; */
+  margin-bottom: 10px;
+}
+
+.link {
+  color: #3a86ff;
+  font-size: large;
+}
+
+.link:hover {
+  color: #032b6d;
+}
