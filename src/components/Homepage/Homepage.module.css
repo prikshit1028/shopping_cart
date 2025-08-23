@@ -1,12 +1,12 @@
 .container {
-  padding-left: 1000px;
+  /* padding-left: 1000px; */
   /* padding-bottom: 0px; */
   /* border: 2px solid red; */
 }
 
 .homeInfo {
   margin-bottom: 10px;
-  font-size: 18px;
+  font-size: 17.5px;
   /* border: 1px solid pink; */
 }
 
