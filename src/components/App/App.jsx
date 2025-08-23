@@ -4,7 +4,7 @@ import { Outlet } from "react-router-dom";
 import { useState } from "react";
 
 function App(){
-    const[cartItems,setCartItems] = useState(0);
+    const[cartItems,setCartItems] = useState([]);
 
     return( 
 
@@ -15,7 +15,7 @@ function App(){
                 <Link to = "shop/" className={styles.link}>Shop</Link>
                 <Link to = "contact/" className={styles.link}>Contact</Link>
                 <Link to = "cart/" className={styles.cart} >Cart </Link>
-                <div className={styles.cartcount}>{cartItems}</div>
+                <div className={styles.cartcount}>{cartItems.length}</div>
             </div>
             <Outlet context={setCartItems}/>
             <footer className={styles.footer}>Est. 1859</footer>
