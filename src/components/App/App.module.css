@@ -9,8 +9,8 @@
 .mainContainer {
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  border: 5px solid purple;
+  min-height: 100vh;
+  /* border: 5px solid purple; */
 }
 
 .navbar {
