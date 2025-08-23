@@ -1,3 +1,16 @@
 .container {
-  padding-left: 8px;
+  padding-left: 1000px;
+  /* padding-bottom: 0px; */
+  /* border: 2px solid red; */
+}
+
+.homeInfo {
+  margin-bottom: 10px;
+  font-size: 18px;
+  /* border: 1px solid pink; */
+}
+
+.image {
+  /* border: 1px solid darkgreen; */
+  display: block;
 }
