@@ -32,12 +32,12 @@
 .productContainer {
   margin-top: 4vh;
   display: flex;
-  padding-left: 13px;
-  padding-right: 11px;
+  padding-left: 2.05vh;
+  padding-right: 1.8vh;
 
   /* justify-content: center; */
   flex-wrap: wrap;
-  gap: 23px;
+  gap: 1.68vw;
   /* border: 5px solid purple; */
 }
 
@@ -66,8 +66,9 @@
   text-align: center;
 }
 
-.buttonStyle {
+.addStyle {
   margin-top: 15px;
+  margin-left: 10px;
   border-radius: 25px;
   border-style: hidden;
   color: #ffe8d6;
@@ -78,7 +79,15 @@
   padding-right: 12px;
 }
 
-.buttonStyle:hover {
+.addStyle:hover {
   cursor: pointer;
   background-color: #202020;
+}
+
+.inputStyle {
+  width: 50px;
+  height: 16px;
+}
+.inputStyle:hover {
+  border: 1px solid #202020;
 }

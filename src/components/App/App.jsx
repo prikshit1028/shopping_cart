@@ -17,7 +17,7 @@ function App(){
                 <Link to = "cart/" className={styles.cart} >🛒</Link>
                 <div className={styles.cartcount}>{cartItems.length}</div>
             </div>
-            <Outlet context={setCartItems}/>
+            <Outlet context={[cartItems,setCartItems]}/>
             <footer className={styles.footer}>Est. 1859</footer>
         
         

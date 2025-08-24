@@ -17,9 +17,9 @@
 .navbar {
   /* border: 1px solid green; */
   display: flex;
-  padding-left: 20px;
+  padding-left: 2.9vh;
   align-items: center;
-  padding-right: 40px;
+  padding-right: 6.4vh;
   /* border: 1px solid red; */
   gap: 3vw;
   color: white;
@@ -64,7 +64,7 @@
 
 .cartcount {
   position: absolute;
-  left: 1329px;
+  left: 97.3vw;
   top: 60.5px;
   font-size: 14.15px;
 
