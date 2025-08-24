@@ -14,7 +14,7 @@ function App(){
                 <Link to = "/" className={styles.link}>Home</Link>
                 <Link to = "shop/" className={styles.link}>Shop</Link>
                 <Link to = "contact/" className={styles.link}>Contact</Link>
-                <Link to = "cart/" className={styles.cart} >Cart </Link>
+                <Link to = "cart/" className={styles.cart} >🛒</Link>
                 <div className={styles.cartcount}>{cartItems.length}</div>
             </div>
             <Outlet context={setCartItems}/>

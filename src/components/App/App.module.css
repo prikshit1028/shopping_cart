@@ -17,8 +17,8 @@
 .navbar {
   /* border: 1px solid green; */
   display: flex;
-  padding: 6px;
   padding-left: 20px;
+  align-items: center;
   padding-right: 40px;
   /* border: 1px solid red; */
   gap: 3vw;
@@ -29,8 +29,8 @@
 
 .logo {
   text-align: center;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 5.6px;
+  padding-bottom: 5.6px;
   font-size: 3vw;
   color: #2d2d2d;
   background-color: #ffe8d6;
@@ -47,6 +47,9 @@
 .cart {
   composes: link;
   margin-left: auto;
+  font-size: 22px;
+  padding-top: 3.25px;
+  padding-bottom: 3.52px;
 }
 
 .footer {
@@ -61,6 +64,9 @@
 
 .cartcount {
   position: absolute;
-  left: 1331px;
+  left: 1329px;
+  top: 60.5px;
+  font-size: 14.15px;
+
   color: #ffe8d6;
 }
